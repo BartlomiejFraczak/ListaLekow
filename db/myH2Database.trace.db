@@ -1,0 +1,24 @@
+2022-05-14 10:32:55 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DESCRIBE[*] * FROM LEKI"; expected "DELETE, DROP, DECLARE, DEALLOCATE"; SQL statement:
+DESCRIBE * FROM LEKI [42001-200]
+2022-05-14 10:33:05 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DATA_WAZNOSCI[*]"; expected "DELETE, DROP, DECLARE, DEALLOCATE"; SQL statement:
+DATA_WAZNOSCI [42001-200]
+2022-05-14 10:33:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DESCRIBE[*] LEKI"; expected "DELETE, DROP, DECLARE, DEALLOCATE"; SQL statement:
+describe LEKI [42001-200]
+2022-05-14 10:34:01 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DESCRIBE[*] LEKI"; expected "DELETE, DROP, DECLARE, DEALLOCATE"; SQL statement:
+describe LEKI [42001-200]
+2022-05-14 10:34:16 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DESC[*] LEKI"; expected "DELETE, DROP, DECLARE, DEALLOCATE"; SQL statement:
+desc LEKI [42001-200]
+2022-05-14 10:34:57 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SP_HELP[*] LEKI"; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+sp_help LEKI [42001-200]
+2022-05-14 10:35:19 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DESCRIBE[*] LEKI"; expected "DELETE, DROP, DECLARE, DEALLOCATE"; SQL statement:
+DESCRIBE Leki [42001-200]
+2022-05-14 10:45:44 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE *[*] FROM LEKI"; expected "identifier"; SQL statement:
+delete * FROM LEKI [42001-200]
